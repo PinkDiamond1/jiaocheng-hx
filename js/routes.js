@@ -19,9 +19,9 @@ angular.module('MyApp').config(['$stateProvider', '$urlRouterProvider',
 			}).state('trust', {
 				url : '/trust',
 				templateUrl : 'templates/trust.html'
-			}).state('taobao', {
-				url : '/taobao',
-				templateUrl : 'templates/taobao.html'
+			}).state('deposit', {
+				url : '/deposit',
+				templateUrl : 'templates/deposit.html'
 			}).state('withdraw', {
 				url : '/withdraw',
 				templateUrl : 'templates/withdraw.html'
